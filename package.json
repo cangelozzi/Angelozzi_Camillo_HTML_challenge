@@ -1,0 +1,28 @@
+{
+  "name": "angelozzi_camillo_html_challenge",
+  "version": "1.0.0",
+  "description": "Frontend challenge",
+  "main": "js/app.js",
+  "scripts": {
+    "dev": "gulp watch & gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cangelozzi/Angelozzi_Camillo_HTML_challenge.git"
+  },
+  "author": "angelozzi camillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cangelozzi/Angelozzi_Camillo_HTML_challenge/issues"
+  },
+  "homepage": "https://github.com/cangelozzi/Angelozzi_Camillo_HTML_challenge#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-imagemin": "^4.1.0"
+  }
+}
