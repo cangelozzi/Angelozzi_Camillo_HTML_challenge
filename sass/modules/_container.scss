@@ -1,0 +1,101 @@
+#container {
+  border: 1px solid #fff;
+  width: 80%;
+  height: 85%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+
+  // size media queries at 640px
+  @media screen and (min-width: 640px) {
+    width: 60%;
+  }
+
+  // size media queries at 760px
+  @media screen and (min-width: 760px) {
+    height: 60%;
+  }
+
+  // size media queries at 1200px
+  @media screen and (min-width: 1200px) {
+    height: 80%;
+    width: 40%;
+  }
+}
+
+#shaving_img {
+  position: relative;
+  z-index: 99;
+  width: 15%;
+  left: 31%;
+  top: 0;
+
+  // size media queries at 640px
+  @media screen and (min-width: 640px) {
+    width: 10%;
+    left: 35%;
+    top: -70px;
+  }
+
+  // size media queries at 760px
+  @media screen and (min-width: 760px) {
+    top: 135px;
+    left: 45%;
+  }
+
+  // size media queries at 1200px
+  @media screen and (min-width: 1200px) {
+    width: 5%;
+    top: 0px;
+    left: 52.5%;
+  }
+}
+
+#tool_img {
+  position: relative;
+  z-index: 99;
+  width: 50%;
+  top: 24rem;
+  left: -5rem;
+
+  // size media queries at 360px
+  @media screen and (min-width: 360px) {
+    left: -8rem;
+  }
+
+  // size media queries at 440px
+  @media screen and (min-width: 440px) {
+    left: -10rem;
+  }
+
+  // size media queries at 580px
+  @media screen and (min-width: 580px) {
+    left: -13rem;
+  }
+
+  // size media queries at 640px
+  @media screen and (min-width: 640px) {
+    left: -4rem;
+    width: 40%;
+  }
+
+  // size media queries at 760px
+  @media screen and (min-width: 760px) {
+    top: 48rem;
+    left: -2rem;
+    width: 30%;
+  }
+
+  // size media queries at 1200px
+  @media screen and (min-width: 1200px) {
+    width: 15%;
+    top: 36rem;
+    left: 28rem;
+  }
+}
