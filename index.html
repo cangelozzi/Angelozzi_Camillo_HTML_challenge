@@ -6,8 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Camillo's Frontend Challenge</title>
     <link rel="stylesheet" href="css/main.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <main>
+      <section id="popup">
+        <img src="./images/tools.png" alt="Tool Image" id="tool_img" />
+        <img src="./images/shaving.png" alt="Shaving Image" id="shaving_img" />
+        <div id="container">
+          <div id="popup_top">
+            <div id="box_top"></div>
+            <div id="separator"></div>
+            <p id="close_btn">X</p>
+            <div id="intro_title">
+              <p>You are Cordially Invited</p>
+              <p>to the Launch</p>
+              <p>of the</p>
+              <h1>New</h1>
+              <h1 class="color_red">Company</h1>
+              <h1>website</h1>
+              <p id="introduction">
+                Lorem ipsum dolor sit amet, vix suas liber conclusionemque eu.
+                Ad quo esse purto eros, nemore volutpat ut quo, copiosae
+                concludaturque nam in.
+              </p>
+              <div id="thelist">
+                <p>Ad est odio noster:</p>
+                <ul>
+                  <li>Ex vis amet graeci accumsan</li>
+                  <li>Civibus iracundia quo ad</li>
+                  <li>Eu impetus feugiat civibus qui</li>
+                  <li>Mel in mucius argumentum, an accumsan petentium vim</li>
+                  <li>Vim at rationibus interesset</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="popup_bot">
+            <h1>Get Your Foot in the Door.</h1>
+            <p>Know the moment our new website goes live.</p>
+            <div id="input_selection">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                class="form_input"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                class="form_input"
+                id="name"
+                placeholder="Email"
+                required
+              />
+              <button type="submit" class="form_input submit_btn">
+                SUBMIT
+              </button>
+            </div>
+            <div id="popupfooter">
+              <input type="checkbox" name="vehicle1" id="checkbox_1" />
+              <label id="smallwriting" for="checkbox_1">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+                odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+                turpis. Suspendisse urna nibh, viverra non, semper suscipit,
+                posuere a, pede.
+              </label>
+            </div>
+            <div id="box_bottom"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script src="js/app.js"></script>
   </body>
 </html>
