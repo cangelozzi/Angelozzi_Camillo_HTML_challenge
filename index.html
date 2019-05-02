@@ -15,67 +15,93 @@
   </head>
   <body>
     <main>
+      <h1 class="hidden">Popup</h1>
+
+      <!-- POPUP -->
       <section id="popup">
+        <!-- side images -->
         <img src="./images/tools.png" alt="Tool Image" id="tool_img" />
         <img src="./images/shaving.png" alt="Shaving Image" id="shaving_img" />
+
+        <!-- Container -->
         <div id="container">
+          <!-- Top part Popup -->
           <div id="popup_top">
             <div id="box_top"></div>
             <div id="separator"></div>
             <p id="close_btn">X</p>
             <div id="intro_title">
-              <p>You are Cordially Invited</p>
-              <p>to the Launch</p>
-              <p>of the</p>
-              <h1>New</h1>
-              <h1 class="color_red">Company</h1>
-              <h1>website</h1>
-              <p id="introduction">
+              <p tabindex="0">You are Cordially Invited</p>
+              <p tabindex="0">to the Launch</p>
+              <p tabindex="0">of the</p>
+
+              <h1 tabindex="0">New <span>Company</span> Website</h1>
+
+              <p id="introduction" tabindex="0">
                 Lorem ipsum dolor sit amet, vix suas liber conclusionemque eu.
                 Ad quo esse purto eros, nemore volutpat ut quo, copiosae
                 concludaturque nam in.
               </p>
+              <!-- Popup List -->
               <div id="thelist">
-                <p>Ad est odio noster:</p>
+                <p tabindex="0">Ad est odio noster:</p>
                 <ul>
-                  <li>Ex vis amet graeci accumsan</li>
-                  <li>Civibus iracundia quo ad</li>
-                  <li>Eu impetus feugiat civibus qui</li>
-                  <li>Mel in mucius argumentum, an accumsan petentium vim</li>
-                  <li>Vim at rationibus interesset</li>
+                  <li tabindex="0">Ex vis amet graeci accumsan</li>
+                  <li tabindex="0">Civibus iracundia quo ad</li>
+                  <li tabindex="0">Eu impetus feugiat civibus qui</li>
+                  <li tabindex="0">
+                    Mel in mucius argumentum, an accumsan petentium vim
+                  </li>
+                  <li tabindex="0">Vim at rationibus interesset</li>
                 </ul>
               </div>
             </div>
           </div>
+          <!-- Top part Popup -->
           <div id="popup_bot">
             <h1>Get Your Foot in the Door.</h1>
             <p>Know the moment our new website goes live.</p>
             <div id="input_selection">
-              <label for="name"></label>
-              <input
-                type="text"
-                name="name"
-                class="form_input"
-                id="name"
-                placeholder="Name"
-                required
-              />
-              <label for="email"></label>
-              <input
-                type="email"
-                name="email"
-                class="form_input"
-                id="name"
-                placeholder="Email"
-                required
-              />
-              <button type="submit" class="form_input submit_btn">
-                SUBMIT
-              </button>
+              <form action="#">
+                <label for="name">Name</label>
+                <input
+                  tabindex="0"
+                  type="text"
+                  name="name"
+                  class="form_input"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+                <label for="email">Email</label>
+                <input
+                  tabindex="0"
+                  type="email"
+                  name="email"
+                  class="form_input"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+                <button
+                  tabindex="0"
+                  type="submit"
+                  value="submit"
+                  class="form_input submit_btn"
+                >
+                  SUBMIT
+                </button>
+              </form>
             </div>
             <div id="popupfooter">
-              <input type="checkbox" name="vehicle1" id="checkbox_1" />
-              <label id="smallwriting" for="checkbox_1">
+              <input
+                type="checkbox"
+                name="checkbox_1"
+                id="checkbox_1"
+                accesskey="s"
+                tabindex="0"
+              />
+              <label id="smallwriting" for="checkbox_1" tabindex="0">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
                 odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
                 turpis. Suspendisse urna nibh, viverra non, semper suscipit,
